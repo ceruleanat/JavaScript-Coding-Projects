@@ -3,46 +3,50 @@
 }
 
 body {
+	background: url(images/pizza.jpg) no-repeat center center fixed;
 	background-color: #fff;
-	background-image: url("pizza.jpg") no-repeat center center fixed;
 }
 
 h1 {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 90px;
-	color: rgb(168, 10, 5);
+	color: rgb(218, 17, 17);
+	border: 2px solid rgb(168, 10, 5);
+	box-shadow: 0 0 0 2px rgba(250, 226, 173, 0.842);
+	background-color: #fff;
 	margin: 0% 0 0 auto;
 	text-align: center;
 }
 
 #frmMenu {
 	margin: 0% auto;
-	width: 250px;
+	width: 550px;
+	display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
     align-items: stretch;
-	border-radius: 5px;
+	border-radius: 1px;
 }
 
 .menu { 
 	flex: 1 150px;
 	min-width: 0;
 	border: 2px solid rgb(168, 10, 5);
-	box-shadow: 0 0 0 3px rgba(255,255,255, .7);
+	box-shadow: 0 0 0 3px rgba(250, 226, 173, 0.842);
 	padding: 0 0 10px 0;
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 15px;
 }
 
 .menu:nth-child(even) {
-	background-color: rgba(244, 245, 247, 0.9);
-	border-radius: 10px;
+	background-color: #fff;
+	border-radius: 1px;
 }
 
 .menu:nth-child(odd) {
-	background-color: rgba(234, 235, 237, 0.9);
-	border-radius: 10px;
+	background-color: #fff;
+	border-radius: 1px;
 }
 
 .menu>H3 {
@@ -50,7 +54,7 @@ h1 {
 	padding: 0 0 0 60px;
 	margin: 0 auto;
 	background-color: rgb(218, 17, 17);
-	border-radius: 10px 10px 0 0;
+	border-radius: 1px 1px 0 0;
 	font-family: 'Fjalla One', sans-serif;
 }
 
@@ -63,9 +67,9 @@ h1 {
 	border-radius: .5em;
 	margin: 1% auto;
 	padding: .1px 0 .1px 0px;
-    font: 18px sans-serif;
+    font: 18px 'Fjalla One', sans-serif;
 	background-color: rgb(218, 17, 17); /*#6486bc;*/
-	box-shadow: 0 0 0 2px rgba(255,255,255, .8);
+	box-shadow: 0 0 0 2px rgba(250, 226, 173, 0.842);
 	transition-property: transform background, box-shadow, color;
 	transition-duration: .3s, .5s, .2s;
 	transition-timing-function: eas-in-out;
@@ -77,10 +81,10 @@ h1 {
 }
 
 .button:hover {
-	font: 18px sans-serif;
+	font: 18px 'Fjalla One', sans-serif;
 	font-weight: bold;
 	color: rgb(168, 10, 5);
-	background-color: rgba(255, 255, 255, .6);
+	background-color: #fff;
 	box-shadow: 0 0 0 2px rgb(168, 10, 5);
 }
 
@@ -105,10 +109,10 @@ h1 {
     flex-direction: row;
     justify-content: flex-start;
     align-items: stretch;
-	background-color: rgba(244, 245, 247, 0.9);
-	border: 2px solid rgb(168, 10, 5);
-	box-shadow: 0 0 0 3px rgba(255,255,255, .8);
-	border-radius: 10px;
+	background-color: #fff;
+	border: 2px solid rgb(218, 17, 17);
+	box-shadow: 0 0 0 3px rgba(250, 226, 173, 0.842);
+	border-radius: 1px;
 	font-family: 'Material Icons', sans-serif;
 }
 
@@ -117,9 +121,9 @@ h1 {
 	flex: 1 250px;
 	height: 50px;
 	width: 250px;
-	padding: 0 0 0px 10px;
-	background-color: rgb(168, 10, 5);
-	border-radius: 10px 0 0 0;
+	padding: 0 0 0px 1px;
+	background-color: rgb(218, 17, 17);
+	border-radius: 1px 0 0 0;
 }
 
 #title2 {
@@ -127,9 +131,9 @@ h1 {
 	flex: 1 250px;
 	height: 50px;
 	width: 250px;
-	padding: 0 0 0px 10px;
-	background-color: rgb(168, 10, 5);
-	border-radius: 0 10px 0 0;
+	padding: 0 0 0px 1px;
+	background-color: rgb(218, 17, 17);
+	border-radius: 0 1px 0 0;
 }
 
 #showText1 {
